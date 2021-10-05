@@ -194,7 +194,7 @@ Button color (dark orange): #F54F33;
   grid-gap: 20px;
   }
   .grid__item {
-    background-color: var(--grid-background);
+    background-color: var(--Header);
   }
   .grid__item:last-child {
     -ms-grid-column: 3;
@@ -216,7 +216,7 @@ Button color (dark orange): #F54F33;
       }
   
       .grid__item {
-          background-color: var(--grid-background);
+          background-color: var(--Header);
           width: auto;
           padding: 10px;
           border-radius: 7px;
