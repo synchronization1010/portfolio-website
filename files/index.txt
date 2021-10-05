@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Calem's Test Page</title>
+    <link rel="shortcut icon" href="./favicon/testimage.png">
+</head>
+
+<header>
+<!-- Replace -->
+<img src="images/logo/html.svg" alt="logo">
+</nav>
+  <ul>
+    <li>
+        <a href="index.html">Home</a>
+    </li>
+    <li>
+        <a href="about.html">About</a>
+    </li>
+    <li>
+        <a href="contact.html">Contact</a>
+    </li>
+  </ul>
+</nav>
+</header>
+
+<body>
+    <!-- Replace -->
+    <img src="images/me/us.jpg" width="150px" height="150px" alt="150x150">
+    <h1>Hello World!</h1>
+    <p>My name is Calem. I am learning <span>web</span> development in the United States.</p>
+    <a href="files/index.txt" target="_blank" download>Check out some of my code.</a>
+    <br>
+    <a href="mailto:office@careerfoundry.com">Contact me</a>
+</body>
+
+<footer>
+   <div>
+      <p>Find me on:</p>
+      <!-- Replace -->
+      <img src="images/icons/github_icon.svg" alt="Github">
+      <img src="images/icons/twitter_icon.svg" alt="Twitter">
+      <img src="images/icons/linkedin_icon.svg" alt="LinkedIn">
+   </div>
+</footer>
+</html>

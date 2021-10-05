@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+   <meta charset="utf-8">
+   <title>Calem's Test Page</title>
+   <link rel="shortcut icon" href="./favicon/testimage.png">
+   <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+   <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+   <link rel="stylesheet" type="text/css" href="css/styles.production.css">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<header class="page-header">
+   <img src="images/logo/html.svg" alt="logo" class="logo page-header__item">
+   <nav class="navigation-list page-header__item">
+      <ul role="menubar">
+         <li role="presentation">
+             <a href="index.html" role="menuitem">Home</a>
+         </li>
+         <li role="presentation">
+             <a href="about.html" role="menuitem">About Me</a>
+         </li>
+         <li role="presentation">
+             <a href="contact.html" role="menuitem">Contact</a>
+         </li>
+         <li role="presentation">
+             <a href="work.html" role="menuitem">My Work</a>
+         </li>
+      </ul>
+   </nav>
+</header>
+
+<form action="" method="post" id="contact-form">
+  <label class="standard-label" for="contact-email">E-mail: </label>
+  <input type="email" id="contact-email"  required>
+
+  <label class="standard-label" for="tel">Telephone: </label>
+  <input type="tel" pattern="\d{3}[\-]\d{3}[\-]\d{4}" id="tel"  required>
+
+  <label class="standard-label" for="text-area">Message: </label>
+  <textarea maxlength="240" id="text-area" required></textarea>
+
+  <input type="submit" value="Send message">
+</form>
+
+<h1>Contact</h1>
+<div>
+    CareerFoundry GmbH<br>
+    Köpenicker Str. 126 <br>
+   10179 Berlin<br>
+    Deutschland<br>
+    <br>
+    Tel <a href="tel:+491234567">+49 1234567</a><br>
+  Skype <a href="skype:hello.careerfoundry"> hello.careerfoundry</a><br>
+    <a href="mailto:office@careerfoundry.com">office@careerfoundry.com </a>
+</div>
+
+<body>
+   <script src="js/tota11y.min.js"></script>
+</body>
+</html>
