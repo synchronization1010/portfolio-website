@@ -20,8 +20,9 @@ Button color (dark orange): #F54F33;
     --dark-grey: #2b2b2b;
     --background: #d5e9f5;
     --Header: #95cced;
+    --Menubuttons: #8ec2e2;
     --a-visit: #05676f;
-    --a-active: #489c79;
+    --a-active: #000;
     --button-back: #F54F33;
     --button-color: white;
     --button2-back: #e0b354;
@@ -87,9 +88,10 @@ Button color (dark orange): #F54F33;
     color: var(--a-visit);
   }
   
-  a:hover a:focus {
+  
+  .menuitem:hover {
     /* No underlining when hovering over a link */
-    text-decoration: none;
+    text-shadow: 0 0 .65px #333, 0 0 .65px #333;
   }
   
   a:active {
