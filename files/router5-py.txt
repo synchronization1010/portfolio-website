@@ -1,0 +1,29 @@
+#circuit1
+
+vlan = 101
+while vlan < 217:
+
+    print "interface vlan add interface=ether2 name=%d vlan-id=%d" % (vlan, vlan) #interface
+    print "ip pool add name=%d ranges=10.11.%d.100-10.11.%d.200" % (vlan, vlan, vlan) #ip pool
+    print "ip address add address=10.11.%d.1/24 network=10.11.%d.0 interface=%d" % (vlan, vlan, vlan) #addresses
+    print "ip dhcp-server add name=%d interface=%d address-pool=%d" % (vlan, vlan, vlan) #dhcp
+    print "ip dhcp-server network add address=10.11.%d.0/24 gateway=10.11.%d.1 dns-server=10.11.%d.1" % (vlan, vlan, vlan) #network
+    
+    vlan = vlan + 1
+    
+
+	
+#circuit2
+
+vlan = 217
+ip = 117
+while vlan < 289:
+
+    print "interface vlan add interface=ether2 name=%d vlan-id=%d" % (vlan, vlan) #interface
+    print "ip pool add name=%d ranges=10.12.%d.100-10.12.%d.200" % (vlan, ip, ip) #ip pool
+    print "ip address add address=10.12.%d.1/24 network=10.12.%d.0 interface=%d" % (ip, ip, vlan) #addresses
+    print "ip dhcp-server add name=%d interface=%d address-pool=%d" % (vlan, vlan, vlan) #dhcp
+    print "ip dhcp-server network add address=10.12.%d.0/24 gateway=10.12.%d.1 dns-server=10.12.%d.1" % (ip, ip, ip) #network
+    
+    vlan = vlan + 1
+    ip = ip + 1
