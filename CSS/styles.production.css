@@ -15,7 +15,7 @@ Button color (dark orange): #F54F33;
  */
 
  :root {
-    --primary-color: #357b70;
+    --primary-color: #005d52;
     --secondary-color: #e0b354;
     --dark-grey: #2b2b2b;
     --background: #d5e9f5;
@@ -23,7 +23,7 @@ Button color (dark orange): #F54F33;
     --Menubuttons: #8ec2e2;
     --a-visit: #05676f;
     --a-active: #000;
-    --button-back: #F54F33;
+    --button-back: #de3600;
     --button-color: white;
     --button2-back: #e0b354;
     --button2-color: #2b2b2b;
